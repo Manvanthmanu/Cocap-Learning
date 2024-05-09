@@ -2,3 +2,40 @@
     margin: 0;
     padding: 0;
 }
+
+/* Global classes */
+
+.flex{
+    display: flex;
+}
+.container{
+    padding: 8vw;
+}
+
+:root{
+    /* colors */
+    --primaryColor : #2fa7cfd6;
+    --secondaryColor : #643FE9;
+    --thirdColor :rgb(153, 206, 221);
+
+    --buttonColorPrimary : rgb(3, 21, 29);
+    --buttonColorSecondary : white;
+    --buttonColorThird :rgba(128, 128, 128, 0.748);
+
+    --fontColorPara : rgb(46, 46, 46);
+    --fontColorHeading :black;
+    --fontColorfooter : rgb(167, 167, 167);
+
+    --gradient1t: linear-gradient(to right, var(--primaryColor) , var(--thirdColor));
+
+    /* Text Size */
+    --headingPrimary : 30px;
+    --paraPrimary : 17px;
+    --QuotePrimary : 18px;
+    --listPrimary: 15px;
+}
+
+body{
+    background:var(--gradient1t);
+    font-size: 17px;
+}
