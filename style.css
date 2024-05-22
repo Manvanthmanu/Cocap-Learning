@@ -5,6 +5,7 @@
 
 /* Global classes */
 
+
 .flex{
     display: flex;
 }
@@ -36,13 +37,33 @@
 }
 
 body{
-    background:var(--gradient1t);
+    /* background:var(--gradient1t); */
     font-size: 17px;
 }
+/* 
+header img{
+    width: 100vw;
+    position: fixed;  
+} */
 
+
+header::before{
+    content: '';
+    position: absolute;
+    display: inline-block; 
+    z-index: -1;
+    /* top: -100px; */
+    /* left: 0px; */
+    
+    background-image: url('./Assets/Artboard1.png');
+    width: 100vw;
+    height:100vh;
+}
 /*  doing photoshop  */
 
 /*  completed 30 min of illustrator
  */
 
  /*  completed photoshopp 40 min  */
+
+ /*  learned 30 min of pseudo elements  */
